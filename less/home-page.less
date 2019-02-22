@@ -86,6 +86,12 @@
 }// home
 
 // media styles
+@media @mobile{
+  .main-head-img img{
+    width: 100%;
+  }
+}
+
 
 @media @mobile {
   .container {
@@ -105,10 +111,8 @@
 }
 @media @mobile {
   .home .space-images img{
-    // display: flex;
     height: 100%;
     width: 100%;
-  
   }
 }
 
@@ -122,11 +126,22 @@
 @media @mobile {
 
   .home .walk{
+    width: 100%;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 0;
-  }
 
+    .walk-text{
+      width: 100%;
+      padding-top: 20px;
+    }
+    .walk-text .btn{
+      width: 100%;
+      }
+  }
 }
+
+
 
 @media @mobile {
   .home .walk .walk-img{

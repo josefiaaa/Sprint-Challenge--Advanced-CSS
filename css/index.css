@@ -203,6 +203,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media ( max-width: 500px ) {
+  footer {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+}
 .main-head-img {
   display: flex;
   justify-content: center;
@@ -276,6 +283,11 @@ footer {
   border-radius: 10px;
 }
 @media ( max-width: 500px ) {
+  .main-head-img img {
+    width: 100%;
+  }
+}
+@media ( max-width: 500px ) {
   .container {
     display: flex;
     flex-direction: column;
@@ -301,8 +313,17 @@ footer {
 }
 @media ( max-width: 500px ) {
   .home .walk {
+    width: 100%;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 0;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .home .walk .walk-text .btn {
+    width: 100%;
   }
 }
 @media ( max-width: 500px ) {
