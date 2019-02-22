@@ -289,8 +289,7 @@ footer {
   }
 }
 @media ( max-width: 500px ) {
-  .space-images .stay {
-    display: flex;
+  .home .space-images img {
     height: 100%;
     width: 100%;
   }
@@ -298,5 +297,18 @@ footer {
 @media ( max-width: 500px ) {
   .space-images .go-away {
     display: none;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .walk {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
   }
 }
