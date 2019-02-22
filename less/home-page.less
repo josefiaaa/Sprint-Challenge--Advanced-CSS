@@ -68,6 +68,7 @@
       }
 
       .btn {
+        .sign-up-btn();
       }
     }
 
@@ -83,3 +84,37 @@
     }
   }
 }// home
+
+// media styles
+
+@media @mobile {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+@media @mobile {
+
+  .space-images{
+    height: 215px;
+    width: 100%;
+  
+  }
+}
+@media @mobile{
+  .space-images .stay{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  
+  }
+}
+
+
+@media @mobile {
+  .space-images .go-away {
+    display: none;
+  }
+}

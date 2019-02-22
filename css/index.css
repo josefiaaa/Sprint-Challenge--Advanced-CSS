@@ -183,6 +183,16 @@ nav a {
   color: #23293B;
   font-size: 1.5rem;
 }
+@media ( max-width: 500px ) {
+  div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  div nav {
+    width: 98%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -242,6 +252,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: white;
+  cursor: alias;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -250,4 +274,29 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media ( max-width: 500px ) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+@media ( max-width: 500px ) {
+  .space-images {
+    height: 215px;
+    width: 100%;
+  }
+}
+@media ( max-width: 500px ) {
+  .space-images .stay {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media ( max-width: 500px ) {
+  .space-images .go-away {
+    display: none;
+  }
 }
